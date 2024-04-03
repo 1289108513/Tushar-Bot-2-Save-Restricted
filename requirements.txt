@@ -1,7 +1,7 @@
 #Github.com-Vasusen-code
 
 https://github.com/vasusen-code/Telethon/archive/refs/tags/v1.24.0.zip
-https://github.com/vasusen-code/ethon/archive/refs/tags/v0.1.5.zip
+https://github.com/1289108513/Tushar-ethon-2-forward/archive/refs/heads/main.zip
 cryptg
 tgcrypto
 pyrogram
