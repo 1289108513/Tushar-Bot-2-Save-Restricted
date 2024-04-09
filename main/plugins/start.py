@@ -30,7 +30,7 @@ async def sett(event):
         if os.path.exists(f'{event.sender_id}.jpg'):
             os.remove(f'{event.sender_id}.jpg')
         os.rename(path, f'./{event.sender_id}.jpg')
-        await t.edit("Temporary thumbnail saved!")
+        await t.edit("Temporary thumbnail saved by rajsa!")
         
 @Drone.on(events.callbackquery.CallbackQuery(data="rem"))
 async def remt(event):  
@@ -44,6 +44,6 @@ async def remt(event):
   
 @Drone.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "Send me Link of any message to clone it here, For private channel message, send invite link first.\n\n**JOIN : ** @AIM_AIIMS143"
+    text = "Send me Link of any message to clone it here, For private channel message, send invite link first.\n\n**JOIN : ** @AnurajRajsa"
     await start_srb(event, text)
     
